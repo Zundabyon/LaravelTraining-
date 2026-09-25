@@ -72,3 +72,5 @@ sail artisan make:migration create_tweets_tableのようにすると作れる
 Schema::createとSchema::tableの使い分け — 新規作成はcreate、既存テーブルへの追加はtable
 開発中はmigrate:freshが安全策 — データ消失OKなら迷わずこれ
 ファイル作成後は中身を確認してから実行 — 空のup()のまま流さない
+
+58pから
